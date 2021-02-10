@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Phone Book App</title>
+</head>
+<body>
+<form action="/addnewrecord">
+    <table>
+        <tr>
+            <th>Nume</th>
+            <th>Telefon</th>
+            <th>Email</th>
+            <th>Actiuni</th>
+        </tr>
+    </table>
+    <input type="text" id="adauga_contact" name="Apasa butonul de mai jos pentru a adauga un contact nou:">
+    <input type="submit" value="Adauga Contact">
+</form>
+
+<!--Aici este o incercare de scriere cod pentru a fi integrat cu Thymeleaf (nu am folosit niciodata acest framework)-->
+<!--<form action="#" th:action="@{/adduser}" th:object="${user}" method="post">-->
+<!--    <label for="name">Name</label>-->
+<!--    <input type="text" th:field="*{name}" id="name" placeholder="Name">-->
+<!--    <span th:if="${#fields.hasErrors('name')}" th:errors="*{name}"></span>-->
+<!--    <label for="email">Email</label>-->
+<!--    <input type="text" th:field="*{email}" id="email" placeholder="Email">-->
+<!--    <span th:if="${#fields.hasErrors('email')}" th:errors="*{email}"></span>-->
+<!--    <input type="submit" value="Add User">-->
+<!--</form>-->
+</body>
+</html>
